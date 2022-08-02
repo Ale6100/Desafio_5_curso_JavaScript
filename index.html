@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio_5</title>
+</head>
+<body>
+    <div>   <!-- Muestro mensajes al usuario, para que trate de entender bien el propósito del programa  -->
+        <p>Este simulador analiza la secuencia de Collatz <br><br></p>
+    </div>
+    <div>
+        <p>La secuencia de Collatz se basa en tomar un número natural, luego:</p>
+        <p>1) Si el número es par, se lo divide por dos</p>
+        <p>2) Si es impar, se lo multiplica por tres y se le suma uno</p>
+        <p>Repetimos este criterio con el nuevo número que nos queda una y otra vez. La secuencia de Collatz es un enunciado no demostrado que dice que repitiendo este criterio siempre llegaremos al número 1 <br><br></p>
+    </div>
+    <div>
+        <p>En este simulador se pretende pedirle al usuario una lista de números naturales, el trabajo del simulador será:</p>
+        <p>1) Contar la cantidad de pasos que le tomó a cada valor inicial ingresado llegar al 1 siguiendo la secuencia de Collatz</p>
+        <p>2) Mostrar a cuál o cuáles valores iniciales les costó más pasos llegar al 1</p>
+        <p>Empecemos:<br><br></p>
+    </div>
+
+    <div id="registroHistorial"> <!-- Este div está creado para colocar con js muchas etiquetas p, que servirán como historial para ver las desiciones que tomó el usuario y los resultados del simulador -->
+        
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
